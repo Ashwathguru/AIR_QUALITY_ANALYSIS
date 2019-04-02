@@ -1,0 +1,101 @@
+###########################################################
+Auto-Generated Report by Random Query written for Automating Analysis by Ashwath and Noopur for the Analysis of Air-Quality in Chennai
+Step 1: The program takes in the number of iterations to be performed
+Step 2: The program randomly selectes a pollutant among [CO,OZONE,NO2,SO2,PM2.5]
+Step 3: The program randomly selectes fixes a lower limit and an upper limit for the selected Pollutant
+Step 4: If the AVERAGE AQI OF THAT SUB SET OF VALUES IS HIGHER THAN NORMAL, THEN THE SUBSET IS SUBJECTED TO ANALYSIS
+Step 5: The subset is then compared and anlysed with every other pollutant and a brief report is generated
+###########################################################
+Given Number of Iterations5
+ITERATION NO. :0
+SELECTED PARAMETER :PM2.5
+LOWER LIMIT :2163
+UPPER LIMIT :2387
+THE AVERAGE AQI OBSERVED FOR THESE RANGES OF PM2.5 ARE NORMAL
+#####################################################################################
+ITERATION NO. :1
+SELECTED PARAMETER :NO2
+LOWER LIMIT :1368
+UPPER LIMIT :1465
+ITERATION NO.,1
+SELECTED PARAMETER: NO2
+For the CO level between the ranges 1368 1465
+The Average AQI is 575.9580221342283
+These values majorly occurs in the month of ['APR']
+Total No. of days in this range: 1
+For these ranges of, NO2, No. of polluted days :1
+For these NO2 ranges NO2 levels are :[1380.35]
+For these NO2  ranges OZONE levels are :[55.224]
+For these NO2  ranges SO2 levels are :[1531.24]
+For these NO2  ranges PM2.5 levels are :[1531.24]
+OZONE is normal for this range of NO2
+We also observe that average SO2 for these ranges are higher than normal  ********
+PM2.5 is normal for this range of NO2
+CO is normal for this range of NO2
+#####################################################################################
+ITERATION NO. :2
+SELECTED PARAMETER :NO2
+LOWER LIMIT :1015
+UPPER LIMIT :4868
+ITERATION NO.,2
+SELECTED PARAMETER: NO2
+For the CO level between the ranges 1015 4868
+The Average AQI is 894.9984171521252
+These values majorly occurs in the month of ['JAN', 'MAR', 'APR']
+Total No. of days in this range: 6
+For these ranges of, NO2, No. of polluted days :6
+For these NO2 ranges NO2 levels are :[1798.04, 1380.35, 1602.04, 2259.25, 3475.47, 2049.76]
+For these NO2  ranges OZONE levels are :[55.224, 51.52, 400.62]
+For these NO2  ranges SO2 levels are :[1531.24, 1948.82, 1925.02, 1809.58, 411.75, 1878.8]
+For these NO2  ranges PM2.5 levels are :[1531.24, 1948.82, 1925.02, 1809.58, 411.75, 1878.8]
+We also observe that average OZONE for these ranges are higher than normal  ********
+We also observe that average SO2 for these ranges are higher than normal  ********
+PM2.5 is normal for this range of NO2
+CO is normal for this range of NO2
+#####################################################################################
+ITERATION NO. :3
+SELECTED PARAMETER :PM2.5
+LOWER LIMIT :18
+UPPER LIMIT :2276
+THE AVERAGE AQI OBSERVED FOR THESE RANGES OF PM2.5 ARE NORMAL
+#####################################################################################
+ITERATION NO. :4
+SELECTED PARAMETER :NO2
+LOWER LIMIT :1683
+UPPER LIMIT :2425
+ITERATION NO.,4
+SELECTED PARAMETER: NO2
+For the CO level between the ranges 1683 2425
+The Average AQI is 974.8442798434004
+These values majorly occurs in the month of ['MAR', 'APR']
+Total No. of days in this range: 3
+For these ranges of, NO2, No. of polluted days :3
+For these NO2 ranges NO2 levels are :[2259.25, 2049.76, 1798.04]
+For these NO2  ranges OZONE levels are :[55.224, 400.62]
+For these NO2  ranges SO2 levels are :[1948.82, 1809.58, 1925.02]
+For these NO2  ranges PM2.5 levels are :[1948.82, 1809.58, 1925.02]
+We also observe that average OZONE for these ranges are higher than normal  ********
+We also observe that average SO2 for these ranges are higher than normal  ********
+PM2.5 is normal for this range of NO2
+CO is normal for this range of NO2
+#####################################################################################
+ITERATION NO. :5
+SELECTED PARAMETER :PM2.5
+LOWER LIMIT :891
+UPPER LIMIT :4572
+ITERATION NO.,5
+SELECTED PARAMETER: PM2.5
+For the CO level between the ranges 891 4572
+The Average AQI is 991.7163869882354
+These values majorly occurs in the month of ['JAN', 'MAY', 'DEC']
+Total No. of days in this range: 5
+For these ranges of, PM2.5, No. of polluted days :5
+For these PM2.5 ranges NO2 levels are :[9.81, 9.83, 7.41, 9.91, 26.72]
+For these PM2.5  ranges OZONE levels are :[42.48, 50.07, 12.44, 42.38, 21.66]
+For these PM2.5  ranges SO2 levels are :[3.07, 5.15, 6.46, 7.82, 10.46]
+For these PM2.5  ranges PM2.5 levels are :[3.07, 5.15, 6.46, 7.82, 10.46]
+NO2 is normal for this range of PM2.5
+OZONE is normal for this range of PM2.5
+SO2 is normal for this range of PM2.5
+CO is normal for this range of PM2.5
+#####################################################################################
